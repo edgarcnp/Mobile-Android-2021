@@ -1,0 +1,2 @@
+Ketika FAB + di click, sebuah string baru akan muncul dengan tambahan string " telah ditambahkan"
+Cth: Kata 21 telah ditambahkan
