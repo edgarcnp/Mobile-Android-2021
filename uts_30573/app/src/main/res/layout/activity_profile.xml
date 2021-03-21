@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:weightSum="10"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:padding="10dp"
+        android:orientation="vertical"
+        android:layout_weight="7">
+
+        <TextView
+            android:id="@+id/titleProfile"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Profil Saya"
+            android:singleLine="true"
+            android:layout_marginTop="20dp"
+            android:textSize="27dp"
+            android:textAlignment="center" />
+
+        <ImageView
+            android:id="@+id/dp"
+            android:layout_width="250dp"
+            android:layout_height="250dp"
+            android:layout_marginTop="30dp"
+            android:src="@drawable/dp"
+            android:scaleType="fitXY"/>
+
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/studentData"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="NIM : 00000030573\nNama : Edgar Christian\nKelas : FL"
+        android:singleLine="false"
+        android:layout_marginTop="20dp"
+        android:textSize="17dp"
+        android:textAlignment="center" />
+
+    <TextView
+        android:id="@+id/reference"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Referensi :\nYoutube : https://www.youtube.com/watch?v=zHRmlzDqE30\n\nGithub:\nhttps://stackoverflow.com/questions/14545139/android-back-button-in-the-title-bar\n\nTeman :\n- Aurelius Ryo Wang (00000033031)\n- Julando Omar (00000027458)"
+        android:singleLine="false"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="30dp"
+        android:textSize="17dp"
+        android:textAlignment="inherit" />
+
+</LinearLayout>

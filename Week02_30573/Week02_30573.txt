@@ -1,0 +1,7 @@
+2a. error empty string
+2b. error empty string
+2c. infinity
+
+2a. dan 2b. memunculkan hasil error karena tidak ada String untuk di pass.
+
+3. dengan menggunakan fitur "debugging" kita dapat melihat proses-proses apa saja yang di test oleh debugger
